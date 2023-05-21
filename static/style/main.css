@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #010;
+    color: #FFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container {
+    padding: 2rem;
+    border: 2px solid #050;
+    border-radius: 1rem;
+}
+
+#map {
+    border-radius: 1rem;
+    height: 75vh;
+    width: 80vw;
+}
+
+.leaflet-popup-content {
+    font-size: 2rem;
+}
